@@ -11,5 +11,8 @@ do{
     array.push(num);
     sum += array[i];
     i++;
+    
 }while(sum < 50)
+array.pop(array[i]);
+console.log(array);
 console.log(sum);
